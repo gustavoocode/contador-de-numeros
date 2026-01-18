@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #020617;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  transition: 0.3s;
+}
+:root {
+  --bg: #020617;
+  --card: #0F172A;
+  --text: #E5E7EB;
+}
+
+.light {
+  --bg: #F9FAFB;
+  --card: #FFFFFF;
+  --text: #111827;
+}
+.light h1 {
+  color: #000;
+  text-shadow: none;
+}
+
+.theme-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border-color: none;
+  background: transparent;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+
+.container {
+  background: var(--card);
+  color: var(--text);
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.25);
+ 
+}
+
+h1 {
+  color: #e5e7eb;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 64px;
+  color: #22d3ee;
+  margin-bottom: 30px;
+  text-shadow: 0 0 15px #22d3ee;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #020617;
+  transition: 0.3s;
+}
+
+#aumentar,
+#aumentar10 {
+  background: #4ade80;
+  box-shadow: 0 0 15px #4ade80;
+}
+
+#diminuir,
+#diminuir10 {
+  background: #fb7185;
+  box-shadow: 0 0 15px #fb7185;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
