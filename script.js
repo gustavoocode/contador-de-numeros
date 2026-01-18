@@ -25,7 +25,7 @@ diminuir.addEventListener("click", function () {
   atualizarVisual()
 
 })
-
+//teste
 diminuir10.addEventListener("click", function () {
   contador -= 10;
   valor.innerText = contador
