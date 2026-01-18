@@ -1,4 +1,4 @@
-
+//
 var contador = 0;
 
 var valor = document.getElementById("valor");
@@ -25,7 +25,7 @@ diminuir.addEventListener("click", function () {
   atualizarVisual()
 
 })
-//teste
+
 diminuir10.addEventListener("click", function () {
   contador -= 10;
   valor.innerText = contador
@@ -53,7 +53,7 @@ function atualizarVisual() {
     valor.style.textShadow = "0 0 20px #22D3EE";
   }
 }
-
+//mudança de tema
 const toggleTheme = document.getElementById("toggleTheme");
 
 
